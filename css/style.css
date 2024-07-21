@@ -650,17 +650,7 @@ span#main {
 
 /* 5. about area
 ------------------------------------------------------------- */
-.about-img-over::after {
-  position: absolute;
-  content: "";
-  background: #1c1c79;
-  width: 65px;
-  height: 65px;
-  right: -9%;
-  top: 137px;
-  transform: rotate(42deg);
-  z-index: 11;
-}
+
 .about-img-over::before {
   position: absolute;
   content: "";
@@ -672,10 +662,10 @@ span#main {
   z-index: 111;
 }
 .about-shape1 {
-  width: 133px;
+  width: 130px;
   height: 134px;
   border: 4px solid var(--main-color);
-  right: -25px;
+  right: -20px;
   top: -25px;
 }
 .about-shape2 {
